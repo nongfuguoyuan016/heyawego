@@ -158,7 +158,7 @@ public class CoreService {
         return rtnStr ;
     }
 
-    public Menu getMenu(){
+    private Menu getMenu(){
         //第一个 一级菜单
         ComplexButton mainBtn1 = new ComplexButton();
         mainBtn1.setName("搜索");
